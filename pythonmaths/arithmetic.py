@@ -110,3 +110,27 @@ def subtract(x: int | float, y: int | float) -> float:
         2.5
     """
     return x - y
+
+def square_root(x: int | float) -> float:
+    """
+    Square root of x
+
+    Parameters
+    ----------
+    x : int | float
+       Number to take the square root of.
+
+    Returns
+    -------
+    float
+        The suqare root of `x`.
+
+    Examples
+    --------
+    >>> from python_math import arithmetic
+    >>> arithmetic.square_root(9)
+        3.0
+    >>> arithmetic.quare_root(2)
+        1.41421356237
+    """
+    return x**0.5
